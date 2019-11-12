@@ -14,6 +14,12 @@
               <h2>
                 What i know?
               </h2>
+              <ul>
+                <li id="docker-image">Docker</li>
+                <li id="jenkins-image">Jenkins</li>
+                <li id="python-image">Python</li>
+                <li>qwe</li>
+              </ul>
               <p>
                 Lorus pututs! Lorus pututs! Lorus pututs! Lorus pututs! Lorus pututs! Lorus pututs! Lorus pututs! Lorus pututs! Lorus pututs! Lorus pututs! Lorus pututs! Lorus pututs! Lorus pututs! Lorus pututs! Lorus pututs! 
               </p>
@@ -52,6 +58,21 @@ export default {
         background-repeat: no-repeat;
         background-position: center;
     }
+    li{
+      list-style: none;
+      padding-left: 3em;
+    }
+    #docker-image{
+      background: url(../assets/img/docker.svg) no-repeat;
+    }
+    #jenkins-image{
+      background: url(../assets/img/jenkins.svg) no-repeat;
+      background-size: contain;
+    }
+    #python-image{
+      background: url(../assets/img/python.svg) no-repeat;
+      background-size: contain;
+    }
     .col{
         padding: 0;
         margin: 0;
@@ -75,6 +96,7 @@ export default {
     }
     .wick{
       max-width: 600px;
+      font-family: BigShouldersText-Light;
       
     }
     @media screen and (max-device-width: 700px) {

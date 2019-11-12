@@ -36,10 +36,22 @@ export default {
 
   @font-face {
     font-family: Ubuntu-Light;
-    src: url("assets/fonts/Ubuntu-Light.ttf"); /* Путь к файлу со шрифтом */
+    src: url("assets/fonts/Ubuntu-Light.ttf");
    }
   @font-face {
     font-family: Ubuntu-Medium;
-    src: url("assets/fonts/Ubuntu-Medium.ttf"); /* Путь к файлу со шрифтом */
+    src: url("assets/fonts/Ubuntu-Medium.ttf");
    }
+
+
+
+
+  /* @font-face {
+    font-family: BigShouldersText-Light;
+    src: url("assets/fonts/BigShouldersText-Light.ttf");
+   }
+  @font-face {
+    font-family: YeonSung-Regular;
+    src: url("assets/fonts/YeonSung-Regular.ttf");
+   } */
 </style>
