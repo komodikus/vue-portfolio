@@ -24,10 +24,10 @@
 
 <script>
 export default {
-  name: 'Header',
+  name: 'header',
   data() {
       return {
-          logoPath: require("../assets/logo.png"),
+          logoPath: require("../assets/img/logo.png"),
       }
   },
   methods:{
@@ -38,8 +38,6 @@ export default {
 
 
 <style scoped>
-    .header{
-    }
     .header{
         padding-top: 1em;
         padding-bottom: 1em;
