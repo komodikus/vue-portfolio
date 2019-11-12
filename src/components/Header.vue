@@ -16,7 +16,7 @@
         <a class="nav-link text-link" href="#">My projects</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link text-link" href="#">SV</a>
+        <a class="nav-link text-link" href="#">CV</a>
     </li>
     </ul>
   </div>

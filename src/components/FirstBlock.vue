@@ -81,6 +81,15 @@ export default {
     .wick {
       width: 300px;
     }
+    .main-header{
+      font-size: 3em;
+      line-height: 40px;
+    }
+    }
+    @media screen and (max-device-width: 500px) {
+    .description {
+      display: none;
+    }
     }
     
 </style>
