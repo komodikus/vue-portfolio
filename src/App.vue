@@ -48,15 +48,4 @@ export default {
     src: url("assets/fonts/Ubuntu-Medium.ttf");
    }
 
-
-
-
-  /* @font-face {
-    font-family: BigShouldersText-Light;
-    src: url("assets/fonts/BigShouldersText-Light.ttf");
-   }
-  @font-face {
-    font-family: YeonSung-Regular;
-    src: url("assets/fonts/YeonSung-Regular.ttf");
-   } */
 </style>
