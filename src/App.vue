@@ -2,19 +2,24 @@
   <div id="app">
     <Header/> 
     <FirstBlock/>
+    <WhatICan/>
+    <AnimationBlock/>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import FirstBlock from './components/FirstBlock.vue'
-
+import WhatICan from './components/WhatICan.vue'
+import AnimationBlock from './components/AnimationBlock.vue'
 
 export default {
   name: 'app',
   components: {
     Header,
     FirstBlock,
+    WhatICan,
+    AnimationBlock,
   },
   data() {
     return {
