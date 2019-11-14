@@ -1,5 +1,5 @@
 <template>
-  <div class="what-i-can">
+  <div class="what-i-can" id="whatican">
       <div class="d-flex justify-content-around flex-wrap  mt-3 mb-3">
           <div class="text-left wick">
               <h2>
@@ -81,8 +81,7 @@ export default {
     .wick{
       max-width: 600px;
       font-size: 2em;
-      font-family: BigShouldersText-Light;
-      
+     
     }
     @media screen and (max-device-width: 700px) {
     .wick {

@@ -2,21 +2,21 @@
   <div class="header">
     <ul class="nav justify-content-around">
     <li class="nav-item">
-        <a class="nav-link active text-link" href="#">Who am i?</a>
+        <a class="nav-link active text-link" href="#whoami">Who am i?</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link text-link" href="#">About me</a>
+        <a class="nav-link text-link" href="#whatican">My skills</a>
     </li>
     <li class="nav-item">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#logo">
             <img v-bind:src="logoPath" id="logo" alt="">
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link text-link" href="#">My projects</a>
+        <a class="nav-link text-link" href="#my_projects">My projects</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link text-link" href="#">CV</a>
+        <a class="nav-link text-link" href="#cv">CV</a>
     </li>
     </ul>
   </div>

@@ -1,35 +1,50 @@
 <template>
   <div id="app">
     <Header/> 
-    <FirstBlock/>
+    <Whoami/>
     <WhatICan/>
-    <AnimationBlock/>
+    <Timeline/>
+    <CVBlock/>
+    <GitHubProjects/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
-import FirstBlock from './components/FirstBlock.vue'
+import Whoami from './components/WhoamiBlock.vue'
 import WhatICan from './components/WhatICan.vue'
-import AnimationBlock from './components/AnimationBlock.vue'
+import CVBlock from './components/CVBlock.vue'
+import Footer from './components/Footer.vue'
+import Timeline from './components/TimelineBlock.vue'
+import GitHubProjects from './components/GitHubProjectsBlock.vue'
 
 export default {
   name: 'app',
   components: {
     Header,
-    FirstBlock,
+    Whoami,
     WhatICan,
-    AnimationBlock,
+    CVBlock,
+    Footer,
+    Timeline,
+    GitHubProjects,
   },
   data() {
     return {
       test:"hello",
     }
   },
+  methods:{
+
+  }
 }
 </script>
 
 <style>
+  html {
+  scroll-behavior: smooth;
+  }
   body{
     background-color: #2a2931;
     color: white;

@@ -1,5 +1,5 @@
 <template>
-  <div class="first-block">
+  <div class="whoami-block" id="whoami">
       <h1 class="main-header text-center">
         <span class="color-blue">
         &lt;b&gt;</span>Hello<span class="color-blue">&lt;/b&gt;</span>
@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: 'firstBlock',
+  name: 'whoamiBlock',
   data() {
       return {
       }
@@ -29,7 +29,7 @@ export default {
 
 
 <style scoped>
-    .first-block{
+    .whoami-block{
         /* background: url("../assets/img/pythonbg1.png"); */
         background-size: contain;
         background-repeat: no-repeat;
