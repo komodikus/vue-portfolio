@@ -1,8 +1,8 @@
 <template>
-  <div class="d-flex wrap justify-content-center timeline">
-      <div class="work-position d-flex"></div>
-      <div class="work-position2 d-flex"></div>
-
+  <div class="d-flex flex-wrap justify-content-center timeline">
+      <div class="work-block work-position"></div>
+      <div class="work-block work-position2"></div>
+      <div class="work-block work-position3"></div>
   </div>
 </template>
 
@@ -23,18 +23,18 @@
 </script>
 
 <style  scoped>
-.timeline{
-    height: 400px;
+.work-block{
+    width: 320px;
+    height: 225px;
 }
 .work-position{
-    height: 200px;
     background: blue;
-    width: 200px;
 }
 .work-position2{
-    height: 200px;
     background: red;
-    width: 200px;
+}
+.work-position3{
+    background: green;
 }
 </style>>
 
