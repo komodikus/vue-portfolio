@@ -1,28 +1,34 @@
 <template>
   <div id="app">
     <Header/> 
-    <WhoamiBlock/>
+    <Whoami/>
     <WhatICan/>
+    <Timeline/>
     <CVBlock/>
+    <GitHubProjects/>
     <Footer/>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
-import WhoamiBlock from './components/WhoamiBlock.vue'
+import Whoami from './components/WhoamiBlock.vue'
 import WhatICan from './components/WhatICan.vue'
 import CVBlock from './components/CVBlock.vue'
 import Footer from './components/Footer.vue'
+import Timeline from './components/TimelineBlock.vue'
+import GitHubProjects from './components/GitHubProjectsBlock.vue'
 
 export default {
   name: 'app',
   components: {
     Header,
-    WhoamiBlock,
+    Whoami,
     WhatICan,
     CVBlock,
     Footer,
+    Timeline,
+    GitHubProjects,
   },
   data() {
     return {

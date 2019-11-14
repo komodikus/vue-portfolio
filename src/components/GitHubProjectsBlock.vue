@@ -21,6 +21,10 @@
 </script>
 
 <style  scoped>
-
+.github-projects{
+  background: url(../assets/img/python_without_bg.png) no-repeat center;
+  background-size: contain;
+  height: 600px;
+}
 </style>>
 
