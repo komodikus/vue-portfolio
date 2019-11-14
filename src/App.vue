@@ -4,6 +4,7 @@
     <WhoamiBlock/>
     <WhatICan/>
     <CVBlock/>
+    <Footer/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from './components/Header.vue'
 import WhoamiBlock from './components/WhoamiBlock.vue'
 import WhatICan from './components/WhatICan.vue'
 import CVBlock from './components/CVBlock.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
@@ -20,6 +22,7 @@ export default {
     WhoamiBlock,
     WhatICan,
     CVBlock,
+    Footer,
   },
   data() {
     return {
