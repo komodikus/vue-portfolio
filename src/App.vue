@@ -3,7 +3,7 @@
     <Header/> 
     <FirstBlock/>
     <WhatICan/>
-    <AnimationBlock/>
+    <CVBlock/>
   </div>
 </template>
 
@@ -11,7 +11,7 @@
 import Header from './components/Header.vue'
 import FirstBlock from './components/FirstBlock.vue'
 import WhatICan from './components/WhatICan.vue'
-import AnimationBlock from './components/AnimationBlock.vue'
+import CVBlock from './components/CVBlock.vue'
 
 export default {
   name: 'app',
@@ -19,7 +19,7 @@ export default {
     Header,
     FirstBlock,
     WhatICan,
-    AnimationBlock,
+    CVBlock,
   },
   data() {
     return {
@@ -51,12 +51,12 @@ export default {
 
 
 
-  /* @font-face {
+  @font-face {
     font-family: BigShouldersText-Light;
     src: url("assets/fonts/BigShouldersText-Light.ttf");
    }
   @font-face {
     font-family: YeonSung-Regular;
     src: url("assets/fonts/YeonSung-Regular.ttf");
-   } */
+   }
 </style>

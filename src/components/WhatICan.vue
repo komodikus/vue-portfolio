@@ -81,8 +81,7 @@ export default {
     .wick{
       max-width: 600px;
       font-size: 2em;
-      font-family: BigShouldersText-Light;
-      
+     
     }
     @media screen and (max-device-width: 700px) {
     .wick {
