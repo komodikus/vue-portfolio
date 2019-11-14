@@ -1,5 +1,5 @@
 <template>
-  <div class="what-i-can">
+  <div class="what-i-can" id="whatican">
       <div class="d-flex justify-content-around flex-wrap  mt-3 mb-3">
           <div class="text-left wick">
               <h2>

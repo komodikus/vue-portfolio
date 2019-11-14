@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header/> 
-    <FirstBlock/>
+    <WhoamiBlock/>
     <WhatICan/>
     <CVBlock/>
   </div>
@@ -9,7 +9,7 @@
 
 <script>
 import Header from './components/Header.vue'
-import FirstBlock from './components/FirstBlock.vue'
+import WhoamiBlock from './components/WhoamiBlock.vue'
 import WhatICan from './components/WhatICan.vue'
 import CVBlock from './components/CVBlock.vue'
 
@@ -17,7 +17,7 @@ export default {
   name: 'app',
   components: {
     Header,
-    FirstBlock,
+    WhoamiBlock,
     WhatICan,
     CVBlock,
   },
@@ -26,10 +26,16 @@ export default {
       test:"hello",
     }
   },
+  methods:{
+
+  }
 }
 </script>
 
 <style>
+  html {
+  scroll-behavior: smooth;
+  }
   body{
     background-color: #2a2931;
     color: white;
