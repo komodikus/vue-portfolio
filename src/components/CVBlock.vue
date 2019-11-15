@@ -1,8 +1,8 @@
 <template>
-    <div class="cvBlock container p-3 ">
+    <div class="cvBlock container p-3" id="cv">
         <hr>
         <div class="d-flex justify-content-around">
-            <a id="cv" href="mycv" class="cvButton" download>DOWNLOAD MY CV</a>
+            <a  href="mycv" class="cvButton" download>DOWNLOAD MY CV</a>
         </div>
         <hr>
     </div>
@@ -46,10 +46,4 @@ export default {
       padding: 1em 3em;
     }
     }
-    hr{
-        border: none;
-        height: 2px;
-        background:  rgba(103,186,205,1);
-        background: -webkit-gradient(linear, 0 0, 100% 0, from(#2a2931), to(#2a2931), color-stop(50%,  rgba(73,161,179,1)));
-        }
 </style>

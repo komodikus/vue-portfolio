@@ -11,8 +11,11 @@ Vue.use(VueScrollReveal, {
   duration: 900,
   scale: 1,
   distance: '10px',
-  mobile: true
+  mobile: true,
 });
+
+
+
 
 new Vue({
   render: h => h(App),

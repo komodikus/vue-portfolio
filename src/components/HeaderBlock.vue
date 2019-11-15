@@ -23,8 +23,9 @@
 </template>
 
 <script>
+
 export default {
-  name: 'header',
+  name: 'header-block',
   data() {
       return {
           logoPath: require("../assets/img/logo.png"),
@@ -55,5 +56,8 @@ export default {
         color: black;
         background: rgb(103,186,205);
         background: linear-gradient(90deg, rgba(103,186,205,1) 0%, rgba(73,161,179,1) 50%, rgba(103,186,205,1) 100%);
+    }
+    .nav{
+        background-color: #2a2931;
     }
 </style>

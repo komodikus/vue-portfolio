@@ -19,20 +19,32 @@
         messageWhenNoItems: 'There arent items',
     dataTimeline: [
       {
+        from: new Date(2013, 6),
+        title: "Student of Belarussian State University of Informatics and Radioelectronics",
+        description:
+          "I received a bachelor's degree in modeling and computer design of electronic equipment."
+      },
+      {
         from: new Date(2017, 5),
-        title: "Name",
+        title: "Minsk Central Custom",
+        description:
+          "Worked as a system administrator, he solved the problems of automation, delimiting security policies, and ensuring uninterrupted operation of the network."
+      },
+      {
+        from: new Date(2018, 5),
+        title: "Army",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde."
       },
       {
-        from: new Date(2017, 8),
-        title: "Name",
+        from: new Date(2019, 5),
+        title: "Freelance",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde."
       },
       {
-        from: new Date(2016, 11),
-        title: "Name",
+        from: new Date(2019, 8),
+        title: "LaciT",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde."
       },

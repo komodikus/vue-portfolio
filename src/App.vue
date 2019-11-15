@@ -1,32 +1,32 @@
 <template>
   <div id="app">
-    <Header/> 
+    <HeaderBlock/> 
     <Whoami/>
     <WhatICan/>
     <Timeline/>
     <CVBlock/>
     <GitHubProjects/>
-    <Footer/>
+    <FooterBlock/>
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import HeaderBlock from './components/HeaderBlock.vue'
 import Whoami from './components/WhoamiBlock.vue'
 import WhatICan from './components/WhatICan.vue'
 import CVBlock from './components/CVBlock.vue'
-import Footer from './components/Footer.vue'
+import FooterBlock from './components/FooterBlock.vue'
 import Timeline from './components/TimelineBlock.vue'
 import GitHubProjects from './components/GitHubProjectsBlock.vue'
 
 export default {
   name: 'app',
   components: {
-    Header,
+    HeaderBlock,
     Whoami,
     WhatICan,
     CVBlock,
-    Footer,
+    FooterBlock,
     Timeline,
     GitHubProjects,
   },
@@ -54,7 +54,12 @@ export default {
   .color-blue{
     color: rgb(103,186,205);
   }
-
+  hr{
+    border: none;
+    height: 2px;
+    background:  rgba(103,186,205,1);
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(#2a2931), to(#2a2931), color-stop(50%,  rgba(73,161,179,1)));
+  }
   @font-face {
     font-family: Ubuntu-Light;
     src: url("assets/fonts/Ubuntu-Light.ttf");

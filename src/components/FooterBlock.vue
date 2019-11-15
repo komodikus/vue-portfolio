@@ -36,7 +36,7 @@ import FacebookIcon from 'vue-material-design-icons/Facebook.vue';
 import TelegramIcon from 'vue-material-design-icons/Telegram.vue';
 import EmailIcon from 'vue-material-design-icons/Email.vue';
     export default {
-    name: 'footer',
+    name: 'footer-block',
     components: {
     InstagramIcon,
     GithubCircleIcon,
@@ -58,12 +58,6 @@ import EmailIcon from 'vue-material-design-icons/Email.vue';
 </script>
 
 <style  scoped>
-    hr{
-        border: none;
-        height: 2px;
-        background:  rgba(103,186,205,1);
-        background: -webkit-gradient(linear, 0 0, 100% 0, from(#2a2931), to(#2a2931), color-stop(50%,  rgba(73,161,179,1)));
-        }
     .footer-icons{
       margin: 1em 2em;
     }
