@@ -22,13 +22,13 @@
         from: new Date(2013, 6),
         title: "Student of Belarussian State University of Informatics and Radioelectronics",
         description:
-          "I received a bachelor's degree in modeling and computer design of electronic equipment."
+          "I received a master's degree in modeling and computer design of electronic components."
       },
       {
         from: new Date(2017, 5),
         title: "Minsk Central Custom",
         description:
-          "Worked as a system administrator, he solved the problems of automation, delimiting security policies, and ensuring uninterrupted operation of the network."
+          "Worked as a system administrator, i solved the problems of automation, delimiting security policies, and ensuring uninterrupted operation of the network."
       },
       {
         from: new Date(2018, 5),

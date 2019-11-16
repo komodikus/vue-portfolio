@@ -16,16 +16,16 @@
               </ul>
           </div>
           <div class="text-right wick">
-              <h2 class="color-blue">
+              <h2 class="">
                 What i can?
               </h2>
               <ul>
-                <li>Work hard on the task</li>
-                <li class="color-blue">I am able to correctly structure the code, I pay attention to the readability and maintainability of the code.</li>
-                <li>I know how to quickly find the right information and use it correctly.</li>
-                <li class="color-blue">I’m not shy to ask what I don’t know, and to help where everything is clear to me.</li>
-                <li>Communicate with people</li>
-                <li class="color-blue">I love new and challenging tasks.</li>
+                <li class="li-right">Work hard on the task.</li>
+                <li class="li-right">I am able to correctly structure the code, I pay attention to the readability and maintainability of the code.</li>
+                <li class="li-right">I know how to quickly find the right information and use it correctly.</li>
+                <li class="li-right">I’m not shy to ask what I don’t know, and to help where everything is clear to me.</li>
+                <li class="li-right">Communicate with people.</li>
+                <li class="li-right">I love new and challenging tasks.</li>
               </ul>
           </div>
       </div>
@@ -97,6 +97,12 @@ export default {
     .wick{
       max-width: 600px;
       font-size: 2em;
+    }
+    .text-right{
+      font-size: 1.3em;
+    }
+    h2{
+      color: rgb(103,186,205);
     }
     @media screen and (max-device-width: 700px) {
     .wick {

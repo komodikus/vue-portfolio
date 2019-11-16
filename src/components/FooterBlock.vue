@@ -2,22 +2,22 @@
   <div class="footer">
     <hr>
     <div class="d-flex wrap justify-content-center footer-icons">
-      <a href="#" class="istagram">
+      <a href="https://www.instagram.com/komodikus12" class="istagram">
         <InstagramIcon class="icon-2x" fillColor="#FF0000"/>
       </a>
-      <a href="#" class="linkedin">
+      <a href="https://www.linkedin.com/in/eugene-butko" class="linkedin">
         <LinkedinIcon class="icon-2x"/>
       </a>
-      <a href="#" class="facebook">
+      <a href="https://www.facebook.com/eugene.butko.3" class="facebook">
         <FacebookIcon class="icon-2x" />
       </a>
-      <a href="#" class="email">
+      <a href="mailto:marbel96@yandex.ru" class="email">
         <EmailIcon class="icon-2x" />
       </a>
-      <a href="#" class="telegram">
+      <a href="https://t.me/komodikus" class="telegram">
         <TelegramIcon class="icon-2x" />
       </a>
-      <a href="#" class="github">
+      <a href="https://github.com/komodikus" class="github">
         <GithubCircleIcon class="icon-2x"/>
       </a>
     </div>

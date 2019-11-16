@@ -3,8 +3,9 @@ import App from './App.vue'
 import 'vue-material-design-icons/styles.css';
 import '../node_modules/timeline-vuejs/dist/timeline-vuejs.css'
 import VueScrollReveal from 'vue-scroll-reveal';
+import { VueGithubCorners } from 'vue2-github-corners'
 
-
+Vue.component('VueGithubCorners', VueGithubCorners)
 Vue.config.productionTip = false
 Vue.use(VueScrollReveal, {
   class: 'v-scroll-reveal',

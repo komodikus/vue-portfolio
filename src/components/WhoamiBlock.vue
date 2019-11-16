@@ -52,7 +52,16 @@ export default {
       margin: 0 0.7em 0.7em 0.7em;
       line-height: 1.1em;
     }
-
+    @media screen and (max-device-width: 1170px) {
+    .description{
+      font-size: 2em;
+            }
+    }
+    @media screen and (min-device-width: 1170px) {
+    .description{
+      margin: 0 4em 0.7em 4em;
+    }
+    }
     @media screen and (max-device-width: 700px) {
     .main-header{
       font-size: 3em;

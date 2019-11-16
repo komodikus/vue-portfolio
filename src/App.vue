@@ -5,8 +5,9 @@
     <WhatICan/>
     <Timeline/>
     <CVBlock/>
-    <GitHubProjects/>
+    <Projects/>
     <FooterBlock/>
+    <VueGithubCorners :repoUrl="repoUrl" :catColor="catColor" :bgColor="bgColor"></VueGithubCorners>
   </div>
 </template>
 
@@ -17,7 +18,7 @@ import WhatICan from './components/WhatICan.vue'
 import CVBlock from './components/CVBlock.vue'
 import FooterBlock from './components/FooterBlock.vue'
 import Timeline from './components/TimelineBlock.vue'
-import GitHubProjects from './components/GitHubProjectsBlock.vue'
+import Projects from './components/ProjectsBlock.vue'
 
 export default {
   name: 'app',
@@ -28,11 +29,13 @@ export default {
     CVBlock,
     FooterBlock,
     Timeline,
-    GitHubProjects,
+    Projects
   },
   data() {
     return {
-      test:"hello",
+      repoUrl: "https://github.com/komodikus",
+      catColor: "rgb(103,186,205)",
+      bgColor: "#151513",
     }
   },
   methods:{
