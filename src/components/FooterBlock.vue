@@ -22,7 +22,7 @@
       </a>
     </div>
     <div href="#" class="text-center my-end">
-      developpedby@komodikus
+      developped by @komodikus
     </div>
   </div>
 </template>
