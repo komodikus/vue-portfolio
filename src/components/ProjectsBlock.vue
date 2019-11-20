@@ -48,7 +48,7 @@ a{
 }
 a:hover{
   transition: 500ms ease;
-  padding: 1em 2em;
+  padding: 0.8em 2em;
   border: solid 3px #437cff;
 }
 .about-project{

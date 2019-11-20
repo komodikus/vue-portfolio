@@ -34,19 +34,23 @@
         from: new Date(2018, 5),
         title: "Army",
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde."
+          "I jumped from an airplane, shot from a machine gun and detonated bombs."
       },
       {
         from: new Date(2019, 5),
         title: "Freelance",
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde."
+          "Developed sites using django, vue, fixed bugs."
       },
       {
         from: new Date(2019, 8),
         title: "LaciT",
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius earum architecto dolor, vitae magnam voluptate accusantium assumenda numquam error mollitia, officia facere consequuntur reprehenderit cum voluptates, ea tempore beatae unde."
+          ` 
+          Configure CI / SD with Jenkins and Docker.
+          Creating streaming server with a counter of people who have entered the building.
+          Developing a component which collects data from ROS and displays them on the frontend.
+          `
       },
     ]
     }),
