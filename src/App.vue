@@ -2,10 +2,12 @@
   <div id="app">
     <HeaderBlock/> 
     <Whoami/>
+    
     <WhatICan/>
+    <Projects/>
     <Timeline/>
     <CVBlock/>
-    <Projects/>
+    
     <FooterBlock/>
     <VueGithubCorners :repoUrl="repoUrl" :catColor="catColor" :bgColor="bgColor"></VueGithubCorners>
   </div>

@@ -13,7 +13,7 @@
         </a>
     </li>
     <li class="nav-item">
-        <a class="nav-link text-link" href="#my_projects">My projects</a>
+        <a class="nav-link text-link" href="#my-projects">My projects</a>
     </li>
     <li class="nav-item">
         <a class="nav-link text-link" href="#cv">CV</a>
@@ -28,7 +28,7 @@ export default {
   name: 'header-block',
   data() {
       return {
-          logoPath: require("../assets/img/logo.png"),
+          logoPath: require("../assets/img/komodo.png"),
       }
   },
   methods:{
@@ -44,7 +44,7 @@ export default {
         padding-bottom: 1em;
     }
     #logo{
-        height: 30px;
+        height: 40px;
     }
     .text-link{
         color: white;

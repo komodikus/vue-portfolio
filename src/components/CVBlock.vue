@@ -2,7 +2,7 @@
     <div class="cvBlock container p-3" id="cv">
         <hr>
         <div class="d-flex justify-content-around">
-            <a  href="mycv" class="cvButton" download>DOWNLOAD MY CV</a>
+            <a  href="Butko_Eugene_CV.pdf" class="cvButton" download>DOWNLOAD MY CV</a>
         </div>
         <hr>
     </div>

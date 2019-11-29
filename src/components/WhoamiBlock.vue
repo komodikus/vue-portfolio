@@ -3,13 +3,14 @@
       <h1 class="main-header text-center">
         <span class="color-blue">
         &lt;b&gt;</span>Hello<span class="color-blue">&lt;/b&gt;</span>
-        <p class="color-blue">I’m Eugene,</p> <p>Python Developer</p>
+        <p class="color-blue">I’m Eugene,</p> <p>Junior Software Developer</p>
         </h1>
         <div class="description text-center">
-          I’m true full-stack software engineer with deep knowledge of back-end, 
-          front-end and dev-ops technologies and tools. Passionate on delivering the best results working with a small and focused team.
-          I really enjoy the awesomeness of full-stack software development and have contributed to various open source projects. 
-          I’m inspired by building software architecture, solving difficult and interesting problems.
+            Starting software developer with 1+ years of experience in backend, frontend and
+            desktop development. Passionate on delivering the best results working with a small and
+            focused team. I’m inspired by building software, solving difficult and interesting problems. I
+            can't say that I am a super professional in the above. But I like to improve my skills and i
+            really enjoy the awesomeness of software development.
         </div>
   </div>
 </template>
